@@ -1,5 +1,10 @@
 function getFirstElement(arr){
-    return arr[0];
+    if  (arr.len != 0){
+        return arr[0];
+    }
+    else{
+        console.log("Error: empty array")
+    }
 }
 
 const numbers = [1, 2,3]
